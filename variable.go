@@ -30,4 +30,7 @@ func main() {
 		lastName  = "Ariawan"
 	)
 	fmt.Println(firstName, lastName)
+
+	s := fmt.Sprintf("My name is %v %v", firstName, lastName)
+	fmt.Println(s)
 }
