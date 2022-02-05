@@ -22,4 +22,20 @@ func main() {
 	fmt.Println("Result of p * q =", result3)
 	fmt.Println("Result of p / q =", result4)
 
+	// Augmented Assigment
+	// a = a + 10 ~ a += 10
+	// a = a - 10 ~ a -= 10
+	// a = a * 10 ~ a *= 10
+	// a = a + 10 ~ a /= 10
+	// a = a % 10 ~ a %= 10 sisa bagi
+	var i = 10
+	i += 10
+	fmt.Println("i += 10 hasilnya", i)
+
+	// Unary Operations
+	// ++, --, +, -, !
+
+	i++ //i = i + 1
+	fmt.Println("i++ =", i)
+
 }
