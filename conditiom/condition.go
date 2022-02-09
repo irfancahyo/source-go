@@ -27,6 +27,15 @@ func main() {
 		fmt.Printf("%.1f%s not bad\n", percent, "%")
 	}
 
+	// If Short Statement
+	name := "Cahyo"
+
+	if lenght := len(name); lenght > 5 {
+		fmt.Println("nama terlalu panjang")
+	} else {
+		fmt.Println("nama sudah benar")
+	}
+
 	// Switch Case
 	var point2 = 6
 
