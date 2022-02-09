@@ -75,7 +75,7 @@ func main() {
 		}
 	}
 
-	// Switch dengan if else statement
+	// Switch dengan tanda kondisi
 	var point5 = 6
 
 	switch {
@@ -111,6 +111,14 @@ func main() {
 				fmt.Println("try harder!")
 			}
 		}
+	}
+
+	// Switch Short Statement
+	switch lenght := len(name); lenght > 5 {
+	case true:
+		fmt.Println("nama terlalu panjang")
+	case false:
+		fmt.Println("nama sudah benar")
 	}
 
 }
