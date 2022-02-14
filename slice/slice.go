@@ -64,4 +64,15 @@ func main() {
 	fmt.Println(iniArray)
 	fmt.Println(iniSlice)
 
+	// example
+
+	e := []int{1, 2, 3}
+	e = append(e, 4)
+	fmt.Println(e, len(e))
+
+	f := make(map[string]int)
+	f["one"] = 1
+	f["two"] = 2
+	fmt.Println(f, len(f), f["one"], f["three"])
+
 }
