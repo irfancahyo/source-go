@@ -9,7 +9,7 @@ func addMahasiswa(firstNames string, lastNames string, prodi string, smt int) {
 }
 
 func main() {
-
-	addMahasiswa("Irfan", "Cahyo", "Rekayasa Perangkat Lunak", 1)
+	firstNames := "Irfan"
+	addMahasiswa(firstNames, "Cahyo", "Rekayasa Perangkat Lunak", 1)
 
 }
